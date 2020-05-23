@@ -326,3 +326,64 @@ h4 span {
   margin: 0;
   font-size: 0.857em;
 }
+
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    display: block;
+  }
+  .cv-aside{
+    max-width: 100%;
+  }
+  .cv-aside-photo{
+    padding: 1.5rem 0;
+  }
+  .cv-aside-main{
+    padding: 0 1rem 1rem 1rem;
+  }
+  .cv-aside-main__contacts{
+    padding-bottom: 0;
+  }
+  .cv-aside-main__list{
+    padding-bottom: 0;
+  }
+  .cv-aside-main__title{
+    padding-top: 1.25rem;
+  }
+  .cv-aside-main__social{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.25rem;
+  }
+  .cv-social-icons{
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+  }
+  .cv-main{
+    max-width: 100%;
+    padding: 1rem ;
+  }
+  .cv-main-about{
+    padding: 0;
+  }
+  .cv-main-projects__title{
+    padding-top: 2.25rem;
+  }
+  .cv-main-certification__title{
+    padding-top: 2.25rem;
+  }
+  .cv-main-experience__title{
+    padding-top: 2.25rem;
+  }
+  .cv-main-education__title{
+    padding-top: 2.25rem;
+  }
+  .cv-main-education__period{
+    padding-bottom: 1rem;
+  }
+}
