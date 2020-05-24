@@ -20,162 +20,165 @@
 <body>
   <div class="container">
 
+    <!-- navigation block -->
+
+    <nav class="cv-nav-menu animate__animated animate__bounceInLeft animate__delay-1s" id="menu">
+      <ul class="cv-nav-menu__list">
+        <li class="cv-nav-menu__items"><a href="#about_me">About Me</a></li>
+        <li class="cv-nav-menu__items"><a href="#contacts">Contacts</a></li>
+        <li class="cv-nav-menu__items"><a href="#projects">Projects</a></li>
+        <li class="cv-nav-menu__items"><a href="#courses">Courses</a></li>
+        <li class="cv-nav-menu__items"><a href="#experience">Work Experience</a></li>
+      </ul>
+    </nav>
+
     <!-- aside block -->
+    <section>
+      <aside class="cv-aside">
+        <img class="cv-aside-photo animate__animated animate__wobble animate__delay-1s" src="images/photo.jpg"
+          alt="my_photo">
+        <div class="cv-aside-main animate__animated animate__bounceInLeft animate__delay-1s">
+          <div class="cv-aside-main__block">
+            <h2 class="cv-aside-main__title" id="contacts">Contacts</h2>
+            <div class="animation"></div>
+          </div>
+          <div class="cv-aside-main__contacts">
+            <p class="cv-aside-main__contacts-letter">Phone:<span class="cv-aside-main__contacts-details"><a
+                  class="contacts-link" href="tel:+380505156384">+38 050 515 63 84</a></span>
+            </p>
+            <p class="cv-aside-main__contacts-letter">Skype:<span class="cv-aside-main__contacts-details"><a
+                  class="contacts-link" href="skype:stanislav.zhdan">stanislav.zhdan</a><span>
+            </p>
+            <p class="cv-aside-main__contacts-letter">Email:<span class="cv-aside-main__contacts-details"><a
+                  class="contacts-link" href="mailto:stanislav.zhdan@gmail.com">stanislav.zhdan@gmail.com</a></span>
+            </p>
+          </div>
 
-    <aside class="cv-aside">
-      <img class="cv-aside-photo animate__animated animate__wobble animate__delay-1s" src="images/photo.jpg"
-        alt="my_photo">
-      <div class="cv-aside-main animate__animated animate__bounceInLeft animate__delay-1s">
-        <div class="cv-aside-main__block">
-          <h2 class="cv-aside-main__title" id="contacts">Contacts</h2>
-          <div class="animation"></div>
+          <!-- aside social -->
+
+          <div class="cv-aside-main__social">
+            <a class="icon" href="https://www.facebook.com/" target="blank">
+              <svg class="cv-social-icons">
+                <use xlink:href="#facebook"></use>
+              </svg>
+            </a>
+            <a class="icon" href="https://github.com/stanislavzhd" target="blank">
+              <svg class="cv-social-icons">
+                <use xlink:href="#gitHub"></use>
+              </svg>
+            </a>
+            <a class="icon" href="https://www.linkedin.com/in/stanislav-zhdan-ab284721/" target="blank">
+              <svg class="cv-social-icons">
+                <use xlink:href="#linkedIn"></use>
+              </svg>
+            </a>
+          </div>
+
+          <h2 class="cv-aside-main__title">Tech Skills</h2>
+          <ul class="cv-aside-main__list">
+            <li><span>HTML5</span></li>
+            <li><span>CSS3</span></li>
+            <li><span>Sass</span></li>
+            <li><span>jQuery (a bit)</span></li>
+            <li><span>JavaScript (a bit)</span></li>
+          </ul>
+          <h2 class="cv-aside-main__title">Tools</h2>
+          <ul class="cv-aside-main__list">
+            <li><span>Visual Studio Code</span></li>
+            <li><span>ConEmu</span></li>
+            <li><span>Adobe Photoshop</span></li>
+            <li><span>Avacode</span></li>
+            <li><span>GitHub</span></li>
+          </ul>
         </div>
-        <div class="cv-aside-main__contacts">
-          <p class="cv-aside-main__contacts-letter">Phone:<span class="cv-aside-main__contacts-details"><a
-                class="contacts-link" href="tel:+380505156384">+38 050 515 63 84</a></span>
-          </p>
-          <p class="cv-aside-main__contacts-letter">Skype:<span class="cv-aside-main__contacts-details"><a
-                class="contacts-link" href="skype:stanislav.zhdan">stanislav.zhdan</a><span>
-          </p>
-          <p class="cv-aside-main__contacts-letter">Email:<span class="cv-aside-main__contacts-details"><a
-                class="contacts-link" href="mailto:stanislav.zhdan@gmail.com">stanislav.zhdan@gmail.com</a></span>
-          </p>
+      </aside>
+
+      <!-- main block -->
+
+      <main class="cv-main animate__animated animate__bounceInLeft animate__delay-1s">
+
+        <!-- about me -->
+
+        <div class="cv-main-about" id="about_me">
+          <h1>Stanislav Zhdan</h1>
+          <h3 class="cv-main-about__position">Intern/Junior HTML/CSS Developer</h3>
+          <p class="cv-main-about__description">I have no commercial experience in HTML/CSS but I have a huge desire to
+            develop in this field. I would like to become a part of your team to learn new and bring a benefit to your
+            company</p>
         </div>
 
-        <!-- aside social -->
+        <!-- projects -->
 
-        <div class="cv-aside-main__social">
-          <a class="icon" href="https://www.facebook.com/" target="blank">
-            <svg class="cv-social-icons">
-              <use xlink:href="#facebook"></use>
-            </svg>
-          </a>
-          <a class="icon" href="https://github.com/stanislavzhd" target="blank">
-            <svg class="cv-social-icons">
-              <use xlink:href="#gitHub"></use>
-            </svg>
-          </a>
-          <a class="icon" href="https://www.linkedin.com/in/stanislav-zhdan-ab284721/" target="blank">
-            <svg class="cv-social-icons">
-              <use xlink:href="#linkedIn"></use>
-            </svg>
-          </a>
-        </div>
-
-        <h2 class="cv-aside-main__title">Tech Skills</h2>
-        <ul class="cv-aside-main__list">
-          <li><span>HTML5</span></li>
-          <li><span>CSS3</span></li>
-          <li><span>Sass</span></li>
-          <li><span>jQuery (a bit)</span></li>
-          <li><span>JavaScript (a bit)</span></li>
-        </ul>
-        <h2 class="cv-aside-main__title">Tools</h2>
-        <ul class="cv-aside-main__list">
-          <li><span>Visual Studio Code</span></li>
-          <li><span>ConEmu</span></li>
-          <li><span>Adobe Photoshop</span></li>
-          <li><span>Avacode</span></li>
-          <li><span>GitHub</span></li>
-        </ul>
-      </div>
-    </aside>
-
-    <!-- main block -->
-
-    <main class="cv-main animate__animated animate__bounceInLeft animate__delay-1s">
-
-      <!-- navigation -->
-
-      <nav class="cv-nav-menu" id="menu">
-        <ul class="cv-nav-menu__list">
-          <li class="cv-nav-menu__items"><a href="#about_me">About Me</a></li>
-          <li class="cv-nav-menu__items"><a href="#contacts">Contacts</a></li>
-          <li class="cv-nav-menu__items"><a href="#projects">Projects</a></li>
-          <li class="cv-nav-menu__items"><a href="#courses">Courses</a></li>
-          <li class="cv-nav-menu__items"><a href="#experience">Work Experience</a></li>
-        </ul>
-      </nav>
-
-      <!-- about me -->
-
-      <div class="cv-main-about" id="about_me">
-        <h1>Stanislav Zhdan</h1>
-        <h3 class="cv-main-about__position">Intern/Junior HTML/CSS Developer</h3>
-        <p class="cv-main-about__description">I have no commercial experience in HTML/CSS but I have a huge desire to
-          develop in this field. I would like to become a part of your team to learn new and bring a benefit to your
-          company</p>
-      </div>
-
-      <!-- projects -->
-
-      <div class="cv-main-projects" id="projects">
-        <h2 class="cv-main-projects__title">Non-commercial Projects</h2>
-        <div class="cv-main-projects__list">
-          <div class="cv-main-projects__item">
-            <a class="projects-link" href="https://stanislavzhd.github.io/band/" target="blank">My Band</a>
-            <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, Sass, jQuery, JS, Web and Mobile version
-              <b>]</b></span>
-          </div>
-          <div class="cv-main-projects__item">
-            <a class="projects-link" href="https://stanislavzhd.github.io/travel_responsive/" target="blank">Travel</a>
-            <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, Sass, Web and Mobile version
-              <b>]</b></span>
-          </div>
-          <div class="cv-main-projects__item">
-            <a class="projects-link" href="https://stanislavzhd.github.io/Fudi" target="blank">Fudi</a>
-            <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, only Web version <b>]</b> </span>
-          </div>
-          <div class="cv-main-projects__item">
-            <a class="projects-link" href="https://stanislavzhd.github.io/apollo" target="blank">Apollo</a>
-            <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, only Web version <b>]</b> </span>
-          </div>
-          <div class="cv-main-projects__item">
-            <a class="projects-link" href="https://stanislavzhd.github.io/design-lab" target="blank">Design Lab</a>
-            <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, only Web version <b>]</b></span>
+        <div class="cv-main-projects" id="projects">
+          <h2 class="cv-main-projects__title">Non-commercial Projects</h2>
+          <div class="cv-main-projects__list">
+            <div class="cv-main-projects__item">
+              <a class="projects-link" href="https://stanislavzhd.github.io/band/" target="blank">My Band</a>
+              <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, Sass, jQuery, JS, Web and Mobile
+                version
+                <b>]</b></span>
+            </div>
+            <div class="cv-main-projects__item">
+              <a class="projects-link" href="https://stanislavzhd.github.io/travel_responsive/"
+                target="blank">Travel</a>
+              <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, Sass, Web and Mobile version
+                <b>]</b></span>
+            </div>
+            <div class="cv-main-projects__item">
+              <a class="projects-link" href="https://stanislavzhd.github.io/Fudi" target="blank">Fudi</a>
+              <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, only Web version <b>]</b> </span>
+            </div>
+            <div class="cv-main-projects__item">
+              <a class="projects-link" href="https://stanislavzhd.github.io/apollo" target="blank">Apollo</a>
+              <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, only Web version <b>]</b> </span>
+            </div>
+            <div class="cv-main-projects__item">
+              <a class="projects-link" href="https://stanislavzhd.github.io/design-lab" target="blank">Design Lab</a>
+              <span class="cv-main-projects__list-details"><b>[</b> HTML5, CSS3, only Web version <b>]</b></span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- courses -->
+        <!-- courses -->
 
-      <div class="cv-main-certification" id="courses">
-        <h2 class="cv-main-certification__title">Courses</h2>
-        <h3 class="cv-main-certification__name">Front-End Course at <span>Beetroot Academy</span></h3>
-        <h4 class="cv-main-certification__period">September 2019 - January 2020 <span>|</span> Kharkiv, Ukraine</h4>
-        <h3 class="cv-main-certification__name"><a href="https://htmlacademy.ru/profile/id484193"
-            target="blank">Intenses at <span>HTML Academy</span></a></h3>
-        <h4 class="cv-main-certification__period">On a weekly base <span>|</span> Online</h4>
-        <h3 class="cv-main-certification__name"><a href="https://www.freecodecamp.org/stanislav_zhdan"
-            target="blank">Intenses at <span>FreeCodeCamp</span></a></h3>
-        <h4 class="cv-main-certification__period">On a weekly base <span>|</span> Online</h4>
-      </div>
-
-      <!-- work experience -->
-
-      <div class="cv-main-experience">
-        <h2 class="cv-main-experience__title" id="experience">Work Experience</h2>
-        <h3 class="cv-main-experience__position">HR Team Leader at <span>Sigma Software</span></h3>
-        <h4 class="cv-main-experience__period">June 2010 - up to now <span>|</span> Kharkiv, Ukraine</h4>
-        <ul class="cv-main-experience__list">
-          <li class="cv-main-experience__item">Automatization of HR processes in a close cooperation with developers
-            (preparing of technical tasks, testing)</li>
-          <li class="cv-main-experience__item">Have experience on working such a Lead with team of 6 employees</li>
-          <li class="cv-main-experience__item">Have experience on development of company’s personnel policies</li>
-          <li class="cv-main-experience__item">Performed a role of PM on the internal design works</li>
-          <li class="cv-main-experience__item">Have experience on communications with English-speaking customers</li>
-        </ul>
-
-        <!-- education -->
-
-        <div class="cv-main-education">
-          <h2 class="cv-main-education__title">Education</h2>
-          <h3 class="cv-main-education__hei">Kharkov Humanitarian University </br>
-            "People's Ukrainian Academy"</h3>
-          <h4 class="cv-main-education__specialization">Master of Sociology</h4>
-          <h4 class="cv-main-education__period">September 2006 - February 2012 <span>|</span> Kharkiv, Ukraine</h4>
+        <div class="cv-main-certification" id="courses">
+          <h2 class="cv-main-certification__title">Courses</h2>
+          <h3 class="cv-main-certification__name">Front-End Course at <span>Beetroot Academy</span></h3>
+          <h4 class="cv-main-certification__period">September 2019 - January 2020 <span>|</span> Kharkiv, Ukraine</h4>
+          <h3 class="cv-main-certification__name"><a href="https://htmlacademy.ru/profile/id484193"
+              target="blank">Intenses at <span>HTML Academy</span></a></h3>
+          <h4 class="cv-main-certification__period">On a weekly base <span>|</span> Online</h4>
+          <h3 class="cv-main-certification__name"><a href="https://www.freecodecamp.org/stanislav_zhdan"
+              target="blank">Intenses at <span>FreeCodeCamp</span></a></h3>
+          <h4 class="cv-main-certification__period">On a weekly base <span>|</span> Online</h4>
         </div>
-    </main>
+
+        <!-- work experience -->
+
+        <div class="cv-main-experience">
+          <h2 class="cv-main-experience__title" id="experience">Work Experience</h2>
+          <h3 class="cv-main-experience__position">HR Team Leader at <span>Sigma Software</span></h3>
+          <h4 class="cv-main-experience__period">June 2010 - up to now <span>|</span> Kharkiv, Ukraine</h4>
+          <ul class="cv-main-experience__list">
+            <li class="cv-main-experience__item">Automatization of HR processes in a close cooperation with developers
+              (preparing of technical tasks, testing)</li>
+            <li class="cv-main-experience__item">Have experience on working such a Lead with team of 6 employees</li>
+            <li class="cv-main-experience__item">Have experience on development of company’s personnel policies</li>
+            <li class="cv-main-experience__item">Performed a role of PM on the internal design works</li>
+            <li class="cv-main-experience__item">Have experience on communications with English-speaking customers</li>
+          </ul>
+
+          <!-- education -->
+
+          <div class="cv-main-education">
+            <h2 class="cv-main-education__title">Education</h2>
+            <h3 class="cv-main-education__hei">Kharkov Humanitarian University </br>
+              "People's Ukrainian Academy"</h3>
+            <h4 class="cv-main-education__specialization">Master of Sociology</h4>
+            <h4 class="cv-main-education__period">September 2006 - February 2012 <span>|</span> Kharkiv, Ukraine</h4>
+          </div>
+      </main>
+    </section>
   </div>
 
   <!-- svg sprite -->
