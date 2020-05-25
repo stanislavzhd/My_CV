@@ -441,15 +441,9 @@ h4 span {
     line-height: .5;
     font-weight: 700;
   }
-  .cv-nav-menu__burger:before{
-    content: "___";
-  }
+  .cv-nav-menu__burger:before,
   .cv-nav-menu__burger:after{
     content: "___";
-  }
-  .cv-nav-menu__burger:hover{
-    color: #fff;
-    background-color: #1e2939;
   }
   .cv-nav-menu{
     left: 0;
