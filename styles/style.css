@@ -21,6 +21,9 @@ section{
 }
 
 /* navigation */
+.cv-nav-menu__burger{
+  display: none;
+}
 
 .cv-nav-menu{
   /* display: none; */
@@ -429,15 +432,48 @@ h4 span {
   }
 
   /* navigation */
+  .cv-nav-menu__burger{
+    display: flex; 
+    flex-direction: column;
+    color: #1e2939;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    line-height: .5;
+    font-weight: 700;
+  }
+  .cv-nav-menu__burger:before{
+    content: "___";
+  }
+  .cv-nav-menu__burger:after{
+    content: "___";
+  }
+  .cv-nav-menu__burger:hover{
+    color: #fff;
+    background-color: #1e2939;
+  }
   .cv-nav-menu{
-    left: 0%;
-    padding-top: .3rem;
+    left: 0;
+    padding-top: 1.5rem;
   }
   .cv-nav-menu__list{
+    display: none; 
     padding: 0 1rem;
+    background-color: #1e2939;
+    flex-direction: column;
+  }
+  .cv-nav-menu__items{
+    padding-right: 0;
   }
   .cv-nav-menu__items a{
+    display: block;
+    padding: 1.25rem 1.25rem 1.25rem 0;
     color: #fff;
-    font-size: .5rem;
+    /* font-size: .5rem; */
+    border-bottom: 1px dotted #fff;
+    text-align: left;
+  }
+  .cv-nav-menu__items a:hover{
+    color: #ff7c24;
+    text-decoration: none;
   }
 }
