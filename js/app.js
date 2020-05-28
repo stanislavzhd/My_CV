@@ -11,6 +11,9 @@ $(document).ready(function(){
     $(".cv-nav-menu__burger").click(function(){
        $(".cv-nav-menu__list").slideToggle(500);
     });
+    // $(".cv-nav-menu__items").click(function(){
+    //     $(".cv-nav-menu__list").slideToggle(500);
+    // });
     $(window).resize(function(){
         if ($(window).width() > 768) {
             $(".cv-nav-menu__list").removeAttr("style")
