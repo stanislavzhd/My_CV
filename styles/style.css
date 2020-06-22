@@ -28,7 +28,7 @@ section{
 .cv-nav-menu{
   /* display: none; */
   position: absolute;
-  left: 37%;
+  left: 40%;
   padding-top: 1rem;
   z-index: 1;
 }
@@ -186,7 +186,7 @@ li span {
 
 .cv-main{
   max-width: 65%;
-  padding-left: 1rem;
+  padding-left: 3rem;
   padding-right: 12rem;
 }
 
@@ -505,7 +505,7 @@ h4 span {
   .cv-nav-menu__burger{
     display: flex; 
     flex-direction: column;
-    color: #1e2939;
+    color: #fff;
     padding-left: 1rem;
     padding-bottom: 1rem;
     line-height: .5;
