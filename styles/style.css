@@ -26,9 +26,9 @@ section{
 }
 
 .cv-nav-menu{
-  /* display: none; */
   position: absolute;
-  left: 40%;
+  left: 50%;
+  right: 50%;
   padding-top: 1rem;
   z-index: 1;
 }
